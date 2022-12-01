@@ -1,0 +1,73 @@
+.parent{
+
+    height: 880px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: -180px;
+}
+.sol{
+    width: 350px;
+    height: 550px;
+    border: 3px orange solid;
+    border-radius: 35px;
+    box-shadow: inset;
+    box-shadow: 5px 15px black;
+
+
+
+}
+img{
+    width: 300px;
+    border-radius: 35px;
+}
+.mol-1{
+    /* background-color:black; */
+    
+
+
+}
+.mol-2{
+    /* background-color:black; */
+}
+.mol-3{
+    /* background-color: black; */
+}
+.mol-4{
+    /* background-color: black; */
+}
+body{
+    background-image: url(./images/straberrycover.webp);
+    background-size: cover;
+}
+h1{
+    color: orange;
+    text-align: center;
+    font-size: 100px;
+}
+h2{
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+h4{
+    color: orange;
+    padding: 25px;
+}
+button{
+    background-color: orange;
+    color: black;
+    margin-left: 45px;
+    border-radius: 25px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+}
+button:hover{
+    background-color: black;
+    color: orange;
+}
+.sol:hover{
+    transform:scale(1.1);
+}
